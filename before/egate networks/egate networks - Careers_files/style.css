@@ -1,0 +1,269 @@
+/* Egate Stylesheet &copy; Audrey Carr September 2004 */
+
+/* layout template */
+
+BODY {
+	margin: 0;
+	padding: 0;
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+	color: #000000;
+	background-image: url(/images/tile.gif);
+	background-color: #ffffff; 
+}
+
+TD, TH {
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+	color: #000000;    
+}
+
+P {
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+	color: #000000;
+	font-size: 12px; 
+}
+ 
+P A:link { FONT-WEIGHT: bold; COLOR: #0066cc; TEXT-DECORATION: none }
+P A:visited { FONT-WEIGHT: bold; COLOR: #0066cc; TEXT-DECORATION: none }
+P A:hover { FONT-WEIGHT: bold; COLOR: #004f7a; TEXT-DECORATION: underline }
+
+UL {
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+	color: #000000;
+	font-size: 12px; 
+}
+
+UL A:link { FONT-WEIGHT: bold; COLOR: #0066cc; TEXT-DECORATION: none }
+UL A:visited { 	FONT-WEIGHT: bold; COLOR: #0066cc; TEXT-DECORATION: none }
+UL A:hover { FONT-WEIGHT: bold; COLOR: #004f7a; TEXT-DECORATION: underline }
+
+.headline-large { font-size: 18px; font-weight: bold }
+.headline-main {  font-size: 14px; font-weight: bold }
+.headline-sub {  font-size: 12px; color: #666666; font-weight: normal; font-style: italic}
+
+.copy-small {  font-size: 10px; }
+.copy-small-light { font-size: 10px; color: #666666 }
+.copy-medium { font-size: 12px}
+.copy-medium-light { font-size: 12px; color: #666666 }
+
+TD.highlight-light {	background : #F6ECDE; font-size: 11px}
+TD.highlight-medium {	background : #006699; }
+TD.highlight-dark {	background : #CC0000; }
+
+.leftside-small {  font-size: 11px}
+.leftside-small a:link { color:#669966; text-decoration:none }
+.leftside-small a:visited { color:#669966; text-decoration:none }
+.leftside-small a:hover { color:#FFFFFF; text-decoration:none;  background : #669966;  }
+.leftside-small a:active { color:#669966; text-decoration:none }
+
+.leftside-medium {  font-size: 12px}
+.leftside-medium a:link { color:#669966; text-decoration:none }
+.leftside-medium a:visited { color:#669966; text-decoration:none }
+.leftside-medium a:hover { color:#FFFFFF; text-decoration:none;  background : #669966;  }
+.leftside-medium a:active { color:#669966; text-decoration:none }
+
+.rightside-small {  font-size: 11px}
+.rightside-small a:link { color:#669966; text-decoration:none }
+.rightside-small a:visited { color:#669966; text-decoration:none }
+.rightside-small a:hover { color:#FFFFFF; text-decoration:none;  background : #669966;  }
+.rightside-small a:active { color:#669966; text-decoration:none }
+
+.rightside-medium {  font-size: 12px}
+.rightside-medium a:link { color:#669966; text-decoration:none }
+.rightside-medium a:visited { color:#669966; text-decoration:none }
+.rightside-medium a:hover { color:#FFFFFF; text-decoration:none;  background : #669966;  }
+.rightside-medium a:active { color:#669966; text-decoration:none }
+
+.dark {  11px}
+.dark a:link { color:#000000; text-decoration:none }
+.dark a:visited { color:#000000; text-decoration:none }
+.dark a:hover { color:#669966; text-decoration:none  }
+.dark a:active { color:#000000; text-decoration:none }
+
+.dark-medium { font-size: 12px}
+.dark-medium a:link { color:#000000; text-decoration:none }
+.dark-medium a:visited { color:#000000; text-decoration:none }
+.dark-medium a:hover { color:#669966; text-decoration:none  }
+.dark-medium a:active { color:#000000; text-decoration:none }
+
+.showit {
+	display: block;
+}
+.hideit {
+	display: none;
+}
+/* Opera Hack */
+html>body .hideit {
+    display: block;
+}
+head:first-child+body .hideit {
+    display: none;
+} 
+
+
+
+
+
+.main-nav {
+	float: left;
+	background-color: #4083B7;
+	padding: 10px 0px 10px 0px;
+	padding: 10px 10px 5px 10px;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 75%;
+	color: #fff;
+}
+
+.main-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 5px 0 3px 0;
+	}
+
+.main-nav li  {
+	padding-left: 5px;
+	}
+
+.main-nav ul a:link, .main-nav ul a:visited,  .main-nav ul a:active { color: #FFFFFF; 	font-weight: normal; }
+
+.main-nav li { color: #FFFFFF; 	font-weight: normal; }
+
+
+#nav-header {
+	text-align: right;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	padding-right: 10px;
+}
+
+#header {
+	padding: 0;
+	}
+
+#header li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+	}
+
+#header a {
+	line-height: 14px;
+	margin: 0px 10px 4px 10px;
+	text-decoration: underline;
+	color: #4083B7;
+}
+
+#header a.active, #header a:hover {
+	color: #CDD5D7;
+	}
+
+#header a:hover {
+	color: #8096A0;
+	}
+
+h1 {
+	font-size: 100%;
+	letter-spacing: 1px;
+	font-family: arial, helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #004071;
+	margin-bottom: 14px;
+	}
+
+h2 {
+	font-size: 90%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: arial, helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	}	
+
+h3 {
+	font-size: 90%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: arial, helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #4083B7;
+	}
+
+#content-service {	
+	padding: 10px;
+	background-color: #C5CFD7;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 82%;
+	color: #fff;
+}
+
+#content-service p {
+	color: #4083B7;
+	font-size: 85%;
+	margin: 5px 0 0 0;
+	}
+
+#content-service A:link { COLOR: #4083B7; TEXT-DECORATION: none }
+#content-service A:visited { COLOR: #4083B7; TEXT-DECORATION: none }
+#content-service A:hover { bold; COLOR: #4083B7; TEXT-DECORATION: underline }
+
+#content-intro {
+	padding: 10px;
+	background-color: #E2DCCB;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 82%;
+	color: #fff;
+}
+
+#content-intro p {
+	color: #4083B7;
+	font-size: 85%;
+	margin: 5px 0 0 0;
+	}
+
+.content-nav {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 70%;
+	font-weight: bold;
+	
+	}
+
+.content-nav ul {
+	margin: 0;
+	padding: 3px 0 17px 30px;
+	}
+
+.content-nav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+	}
+
+.content-nav a {
+	text-decoration: none;
+	color: #FDFCF5;
+}
+
+.content-nav a.active, .content-nav a:hover {
+	color: #FDFCF5;
+	}
+
+.content-nav a:hover {
+	color: #FDFCF5;
+	text-decoration: underline;
+	}
+	
+
+
+a:link, a:visited, a:active	{
+	color: 		#fff;
+	text-decoration: none;
+	}
+
+a:hover{
+	color: 		#fff;
+	text-decoration: underline;
+	}
