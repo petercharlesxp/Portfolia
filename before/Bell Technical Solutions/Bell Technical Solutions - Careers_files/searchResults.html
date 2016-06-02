@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0091)http://chp.tbe.taleo.net/chp04/ats/careers/requisition.jsp?org=BELLSOLUTIONS&cws=1&rid=1888 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link type="text/css" rel="stylesheet" href="./ui.core.css">
+<link type="text/css" rel="stylesheet" href="./ui.theme.css">
+<link type="text/css" rel="stylesheet" href="./ui.datepicker.css">
+<link type="text/css" rel="stylesheet" href="./ui.dialog.css">
+
+
+<style type="text/css">
+
+    select:focus, a:focus {
+        outline: #1e90ff solid 2px
+    }
+
+    input[type=submit] {
+        background: #00438C;
+    }
+
+    input[type=button] {
+        background: #00438C;
+    }
+
+    input[type=submit]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=button]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=submit]:focus {
+        background: #1e90ff;
+    }
+
+    input[type=button]:focus {
+        background: #1e90ff
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+        text-align: right;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane button {
+        float: none;
+    }
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+        /*border: 1px solid #000;*/
+        /*}*/
+
+</style>
+
+
+
+<style type="text/css">
+    .alert-error {
+        color: #990000;
+        font-weight: bold;
+    }
+
+    td.top {
+        vertical-align: top !important;
+    }
+
+    td.left {
+        float: none;
+        text-align: left;
+    }
+
+    td.right {
+        float: none;
+        text-align: right;
+    }
+
+    .nowrapFormLabel {
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 120%
+    }
+
+    h2 {
+        font-size: 110%
+    }
+
+    h3 {
+        font-size: 100%
+    }
+
+    .hidden-accessibility-text {
+        position: absolute;
+        left: -2000px;
+        top: 0;
+        width: 1;
+        height: 1;
+        overflow: hidden;
+        font-size: 0.1em;
+    }
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+    .ofcc305table textfield, .ofcc305table select,
+    .ofcc305table input, .ofcc305table a {
+        font-size:12px !important;
+        font-family:Arial,sans-serif,Helvetica !important;
+    }
+
+    #cws-search-results th, #cws-job-alerts th {
+        border-top: #CCCCCC 2px solid;
+        border-bottom: #CCCCCC 2px solid;
+    }
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+        border-bottom: #CCCCCC 2px solid;
+        padding-bottom: 3px;
+    }
+</style>
+
+</head><body>
+<style type="text/css">
+body {
+font-family: Arial;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+}
+TD, TH {
+font-family: Arial;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+}
+textarea {font-family:Arial; font-size:11px;}
+textfield {font-family:Arial; font-size:11px;}
+select {font-family:Arial; font-size:11px;}
+input {font-family:Arial; font-size:11px;}
+</style>
+<script type="text/javascript" src="./tbe-basic-cws.js"></script>
+<script type="text/javascript" src="./engine.js"></script>
+<script type="text/javascript" src="./CwsDWRFacade.js"></script>
+<script type="text/javascript"> CwsDWRFacade._path = 'http://chp.tbe.taleo.net/chp04/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; </script>
+<script type="text/javascript">
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R16-05-12-09-50-12-16.A2_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chp.tbe.taleo.net/chp04/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chp.tbe.taleo.net/chp04/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();</script>
+
+
+
+
+
+
+<table border="0" cellspacing="0" cellpadding="2" width="100%" role="presentation">
+<tbody><tr>
+<td colspan="2"><hr width="100%" size="1" color="silver"></td></tr><tr><td colspan="2"><h1>Field Service Technician - Toronto</h1></td>
+</tr>
+<tr>
+<td class="nowrapFormLabel width160 top">City:</td>
+<td class="formFieldNormal top" colspan="1" style="width: 100%"><b>CA-ON, TORONTO</b></td>
+</tr>
+<tr>
+<td class="nowrapFormLabel width160 top">Job Code:</td>
+<td class="formFieldNormal top" colspan="1" style="width: 100%"><b>1888</b></td>
+</tr>
+<tr>
+</tr><tr><td colspan="2"><hr width="100%" size="1" color="silver"></td></tr>
+<tr><td colspan="2"><h1>Description</h1></td></tr>
+<tr><td colspan="2"><p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>FIELD SERVICE TECHNICIAN </strong></span></span></p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">&nbsp;</span></span></p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>WHO WE ARE? </strong></span></span></p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Bell Technical Solutions (BTS) is a wholly owned subsidiary of Bell Canada that specializes in the installation of Bell services, including Home Phone, Internet and Fibe TV. BTS operates in the residential and business sectors throughout Québec and Ontario. With more than 6000 employees, BTS has experienced strong growth since its foundation in 1996 and continues to distinguish itself from the competition through highly skilled labour and an unwavering commitment to providing the best possible customer experience. </span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>WHY CHOOSE BTS? </strong></span></span></p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">When you choose BTS, you are selecting a company that focuses on job creation, professional development and career advancement. To ensure that we continue to be recognized as Canada’s leading Communications Company, we are committed to finding and developing the next generation of leaders. This means creating best-in-class career and development opportunities to help our employees succeed and grow. Choose BTS if you want to make your career aspirations a reality. </span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>POSITION OVERVIEW </strong></span></span></p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">The Field Services Team is tasked with the responsibility of providing installation, maintenance, and repair services for business and residential customers using the most advanced network technology in the market. As a Technician at BTS, you will play a key role in ensuring reliable delivery of telecommunications services to our business and residential customers in Ontario. You will install, maintain, and repair Fibe TV and high-speed internet, home phone, and business communications services. Put your excellent customer service skills into action as you provide direct support and guidance and respond to customer inquiries related to our world-class products and services. </span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>WHAT’S IN IT FOR YOU? </strong></span></span></p>
+
+<ul>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Career advancement opportunities</span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Wage increase approximately every 6 months, based on a 40 hour work week</span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Company provided Smartphone </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Discounts on Bell services (Internet, TV, Home Phone, and Mobility) </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Incentives and rewards </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Paid training </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Company provided apparel </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Acquire industry insight and skills from some of the industry’s most highly skilled technical professionals </span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>WHAT ARE YOUR RESPONSIBILITIES? </strong></span></span></p>
+
+<ul>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Installation, maintenance, and repair of fiber and copper-based telecommunications equipment, products and services </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Provide an exceptional customer experience for our clients </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Troubleshoot complex telecommunications products and systems using a digital multimeter, Smartphone, and PC </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Work independently and also assist other technicians while in the field </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Observe and follow all company Health and Safety rules and policies </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Inform customers of work that will be done </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Learn and understand new products and services </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Act as an ambassador by professionally representing the Bell brand </span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>DO YOU MEET THE REQUIREMENTS? </strong></span></span></p>
+
+<ul>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Flexible to work various shifts (days, evenings, weekends) and be on call </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Available to work 40 hours per week </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Ontario Secondary School Diploma (OSSD) or equivalent is required </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Valid Ontario Drivers License (G2 or greater)</span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Safe Driving record with no suspensions of any kind on your driving abstract</span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Climb ladders without fear of heights </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Work indoors as well as outdoors in all types of weather conditions </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Ability to lift up to meet the physical demands of the job </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Ability to distinguish colours </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">English proficiency, both verbal and written </span></span></li>
+	<li><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">Post -secondary education in Electronics/ Electrical Engineering is a considerable asset </span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p style="text-align: justify;"><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Join our team today!</strong><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span></span></p>
+
+<p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;">We are proud to be an Equal Opportunity Employer. We are committed to creating an inclusive, equitable and accessible work environment so our employees can perform their jobs well and reach their full potential. We encourage everyone to apply to our job postings, including members of the four designated groups.</span></span></p></td></tr>
+
+<tr>
+</tr><tr><td class="left"><br>
+<form action="http://chp.tbe.taleo.net/chp04/ats/careers/apply.jsp?org=BELLSOLUTIONS&amp;cws=1&amp;rid=1888" method="post" name="apply">
+<input type="hidden" name="act" value="addCart">
+<input type="hidden" name="org" value="BELLSOLUTIONS">
+<input type="hidden" name="cws" value="1">
+<input type="hidden" name="_csrf" value="v1:;1464118941810:;TzZ/jo1SEcWA7i9NzSa3BaEwrGxA4UW/H1K4cicNrpo="><input type="submit" name="tbe_cws_submit" value="Apply for this Position" style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabindex="7"></form></td>
+
+<td align="right" colspan="1"><br>
+<form action="http://chp.tbe.taleo.net/chp04/ats/careers/email.jsp?org=BELLSOLUTIONS&amp;cws=1" method="post" name="send">
+<input type="hidden" name="org" value="BELLSOLUTIONS">
+<input type="hidden" name="cws" value="1">
+<input type="hidden" name="rid" value="1888">
+<input type="hidden" name="_csrf" value="v1:;1464118941810:;TzZ/jo1SEcWA7i9NzSa3BaEwrGxA4UW/H1K4cicNrpo="><input type="submit" name="tbe_cws_submit" value="Send to a Friend" style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabindex="8"></form>
+</td></tr>
+
+<tr>
+<td colspan="2" width="100%"><br></td>
+</tr>
+<tr>
+<td colspan="2"><hr width="100%" size="1" color="silver">
+<h1><span class="head1">Are you a returning applicant?</span></h1></td>
+</tr>
+<tr>
+<form action="http://chp.tbe.taleo.net/chp04/ats/careers/applyModal.jsp?org=BELLSOLUTIONS&amp;cws=1" method="post" name="TBE_theForm"></form>
+<input type="hidden" name="org" value="BELLSOLUTIONS">
+<input type="hidden" name="cws" value="1">
+<input type="hidden" name="rid" value="1888">
+<input type="hidden" name="currentTime" value="1464118941811">
+<input type="hidden" name="signature" value="vATkDwIdz5a3/wb7aIyIYXL2ShHDQRzLCvi6y6ya9DE=">
+<input type="hidden" name="et" value="CAND">
+<input type="hidden" name="act" value="addCart">
+<input type="hidden" name="_csrf" value="v1:;1464118941810:;TzZ/jo1SEcWA7i9NzSa3BaEwrGxA4UW/H1K4cicNrpo="></tr><tr><td colspan="2">
+<input type="text" style="display:none"><input type="password" style="display:none"><table border="0" cellpadding="2" cellspacing="0" role="presentation"><tbody><tr>
+<td nowrap="" colspan="2">Previous Applicants:</td>
+</tr>
+<tr>
+<td nowrap="" align="right"><label for="email">Email:</label></td>
+<td class="nowrap"><input type="text" id="email" name="email" maxlength="50" autocomplete="off" tabindex="20"></td>
+</tr>
+
+
+<tr>
+<td nowrap="" align="right"><label for="cwsPassword">Password:</label></td>
+<td class="nowrap"><input type="password" id="cwsPassword" name="cwsPassword" maxlength="30" autocomplete="off" tabindex="21"></td>
+</tr>
+<tr><td nowrap="" colspan="2">
+<input type="submit" name="tbe_cws_submit" value="Add to My Jobs" style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabindex="22"></td></tr>
+<tr><td nowrap="" colspan="2"><br>
+If you do not remember your password <a href="http://chp.tbe.taleo.net/chp04/ats/careers/forgotID.jsp?org=BELLSOLUTIONS&amp;cws=1" tabindex="23">click here</a>.<br><br></td></tr>
+</tbody></table>
+</td></tr>
+
+<tr>
+<td colspan="2" width="100%"><a tabindex="26" href="http://chp.tbe.taleo.net/chp04/ats/careers/searchResults.jsp?org=BELLSOLUTIONS&amp;cws=1" title="Back to Search Results">Back to Search Results</a><br><br></td>
+</tr>
+<tr>
+<td colspan="2" width="100%"><a tabindex="27" href="http://chp.tbe.taleo.net/chp04/ats/careers/jobSearch.jsp?org=BELLSOLUTIONS&amp;cws=1&amp;rid=1888" title="New Search">New Search</a><br><br></td>
+</tr>
+<tr>
+<td colspan="2" width="100%"><br><div align="right"><img src="./Taleo_powered_by_small.gif" alt="Powered By Taleo" border="0"></div><br><br></td>
+</tr>
+</tbody></table>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        //jQuery Calendar
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R16-05-12-09-50-12-16.A2_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+    </script>
+
+
+
+
+
+</body></html>
